@@ -88,7 +88,7 @@ benchmark and renovate BrainDiffuser with another Regression is Batch-MultiOutpu
 Reconstruct images from predicted test features using 
   ```sh
      python scripts/versatilediffusion_reconstruct_images.py -sub 1
-  ``` .
+  ```
 <!-- CONTACT -->
 ## Contact
 
