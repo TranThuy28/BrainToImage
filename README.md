@@ -85,20 +85,10 @@ benchmark and renovate BrainDiffuser with another Regression is Batch-MultiOutpu
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Reconstruction with Versatile Diffusion
-Reconstruct images from predicted test features using `python scripts/versatilediffusion_reconstruct_images.py -sub 1` .
-### Reconstruction with Versatile Diffusion
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the project_license. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
+Reconstruct images from predicted test features using 
+  ```sh
+     python scripts/versatilediffusion_reconstruct_images.py -sub 1
+  ``` .
 <!-- CONTACT -->
 ## Contact
 
