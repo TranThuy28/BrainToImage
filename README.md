@@ -24,7 +24,7 @@
 
 In neural decoding research, one of the most intriguing topics is the reconstruction of perceived 
 natural images based on fMRI signals. We used publicly available Natural Scenes Dataset 
-benchmark and renovate BrainDiffuser with another Regression is Batch-MultiOutput regression, `email`, `project_title`, `project_description`, `project_license`
+benchmark and renovate BrainDiffuser with another Regression is Batch-MultiOutput regression
 -
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -32,9 +32,9 @@ benchmark and renovate BrainDiffuser with another Regression is Batch-MultiOutpu
 
 ### Built With
 
-* [![VDVAE][VDVAE]][openai/vdvae]
-* [![VD][VersatileDiffusion]]SHI-Labs/Versatile-Diffusion]
-* [![Regression][Batch-MultiOutput Regression]][[regression]
+* [openai/vdvae]
+* [SHI-Labs/Versatile-Diffusion]
+* Batch-MultiOutput Regression
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -56,19 +56,19 @@ benchmark and renovate BrainDiffuser with another Regression is Batch-MultiOutpu
 2. Prepare NSD data for the Reconstruction Task:
    ```sh
    cd data
-  python prepare_nsddata.py -sub 1
-  python prepare_nsddata.py -sub 2
-  python prepare_nsddata.py -sub 5
-  python prepare_nsddata.py -sub 7
+   python prepare_nsddata.py -sub 1
+   python prepare_nsddata.py -sub 2
+   python prepare_nsddata.py -sub 5
+   python prepare_nsddata.py -sub 7
    ```
 ### Reconstruction with VDVAE
 
 1. Download pretrained VDVAE 
    ```sh
-  wget https://openaipublic.blob.core.windows.net/very-deep-vaes-assets/vdvae-assets-2/imagenet64-iter-1600000-log.jsonl
-wget https://openaipublic.blob.core.windows.net/very-deep-vaes-assets/vdvae-assets-2/imagenet64-iter-1600000-model.th
-wget https://openaipublic.blob.core.windows.net/very-deep-vaes-assets/vdvae-assets-2/imagenet64-iter-1600000-model-ema.th
-wget https://openaipublic.blob.core.windows.net/very-deep-vaes-assets/vdvae-assets-2/imagenet64-iter-1600000-opt.th
+   wget https://openaipublic.blob.core.windows.net/very-deep-vaes-assets/vdvae-assets-2/imagenet64-iter-1600000-log.jsonl
+   wget https://openaipublic.blob.core.windows.net/very-deep-vaes-assets/vdvae-assets-2/imagenet64-iter-1600000-model.th
+   wget https://openaipublic.blob.core.windows.net/very-deep-vaes-assets/vdvae-assets-2/imagenet64-iter-1600000-model-ema.th
+   wget https://openaipublic.blob.core.windows.net/very-deep-vaes-assets/vdvae-assets-2/imagenet64-iter-1600000-opt.th
    ```
 2. Extract VDVAE latent features of stimuli images for any subject 'x' using:
    ```sh
@@ -102,8 +102,9 @@ Distributed under the project_license. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-TRANTHUY - ) - tranthuy2810@gmail.com
-VUTUQUYNH - ) - vtq06011@gmail.com
+TRANTHUY : tranthuy2810@gmail.com
+
+VUTUQUYNH : vtq06011@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,6 +116,7 @@ VUTUQUYNH - ) - vtq06011@gmail.com
 * Codes in vdvae directory are derived from [openai/vdvae]
 * Codes in versatile_diffusion directory are derived from earlier version of [SHI-Labs/Versatile-Diffusion]
 * Dataset used in the studies are obtained from [Natural Scenes Dataset]
+* Baseline from [BrainDiffuser]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,3 +129,4 @@ VUTUQUYNH - ) - vtq06011@gmail.com
 [Natural Scenes Dataset]: https://naturalscenesdataset.org/
 [regression]: https://arxiv.org/abs/2403.19421
 [product-screenshot]: https://github.com/TranThuy28/BrainToImage/blob/main/results/ssRESULT.png
+[BrainDiffuser]: https://github.com/ozcelikfu/brain-diffuser
