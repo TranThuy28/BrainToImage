@@ -112,9 +112,9 @@ VUTUQUYNH - ) - vtq06011@gmail.com
 <!-- References -->
 ## References
 
-* [](Codes in vdvae directory are derived from [openai/vdvae])
-* [](Codes in versatile_diffusion directory are derived from earlier version of [SHI-Labs/Versatile-Diffusion])
-* [](Dataset used in the studies are obtained from [Natural Scenes Dataset])
+* Codes in vdvae directory are derived from [openai/vdvae]
+* Codes in versatile_diffusion directory are derived from earlier version of [SHI-Labs/Versatile-Diffusion]
+* Dataset used in the studies are obtained from [Natural Scenes Dataset]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,4 +126,4 @@ VUTUQUYNH - ) - vtq06011@gmail.com
 [SHI-Labs/Versatile-Diffusion]: https://github.com/SHI-Labs/Versatile-Diffusion
 [Natural Scenes Dataset]: https://naturalscenesdataset.org/
 [regression]: https://arxiv.org/abs/2403.19421
-[product-screenshot]: [images/screenshot.png](https://www.wisdom.weizmann.ac.il/~vision/ssfmri2im/resources/figs/reconst_demo.gif)
+[product-screenshot]: https://github.com/TranThuy28/BrainToImage/blob/main/results/ssRESULT.png
